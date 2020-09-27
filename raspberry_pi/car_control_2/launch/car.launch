@@ -1,0 +1,6 @@
+<launch>
+        <node pkg="rosserial_arduino" type="serial_node.py" name="controller">
+	<param name="_port" value="/dev/ttyACM0" />
+	</node>
+	<node pkg="car_control_2" type="camera.py" name="image_publisher"/>
+</launch>

@@ -19,7 +19,10 @@ to send velocity command to the arduino.
  ![alt text](https://github.com/guru-narayana/Lane_follower_DNN/blob/master/pictures/test_run.png)    
     
     In the testing phase u need to load the saved model (change the path in the load.py) and use main .py node to test the model it publishes linear and angular velocity based on 
-    float output of the  model, if u have no way of controlling with pwm (in the case of controlling motor with raspberry directly) u can use threshhold of the probablity to           determine the direction.
+    float output of the  model, if u have no way of controlling with pwm (in the case of controlling motor with raspberry directly) u can use threshhold of the probablity to
+    determine the direction
+
+
 # Publishing the images RaspberryPi
    I faced many issues while installing cv_bridge in RaspberryPi model3b so i had to use the source code of the cv_bridge image to images_msg conversin and published 
    the image u can use the same code for publishing the images.

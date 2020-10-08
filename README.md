@@ -4,4 +4,4 @@ rasperry folder corresponds to the package that you need install in the ros pack
 to send velocity command to the arduino.
 # Nodes ------>
  1.FOR COLLECTING THE DATA
-    
+    ![alt text](https://github.com/guru-narayana/Lane_follower_DNN/blob/master/pictures/collecting.png)

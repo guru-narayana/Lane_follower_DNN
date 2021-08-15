@@ -2,7 +2,7 @@
 lane follower made from scratch with raspberry pi and arduino, uses alex net for classification of the images.
 rasperry folder corresponds to the package that you need install in the ros packages of rasperry pi and same goes for PC and arduino , here raspi uses serial communication 
 to send velocity command to the arduino.
-# NODES ------>
+# NODES
  1.For Collecting The Data
  
  ![alt text](https://github.com/guru-narayana/Lane_follower_DNN/blob/master/pictures/collecting.png)
